@@ -1,0 +1,107 @@
+.filter-menu-container {
+    height:100%;
+    width:100%;
+    background-color:#F6F6F4;
+    transition: 0.2s all;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+    
+}
+.filter-menu {
+    overflow: hidden;
+    height:100%;
+    
+
+}
+
+.point-query-filters {
+    top:0;
+    height: fit-content;
+    width:100%;
+    background:#F6F6F4;
+    border-radius: 4px;
+    padding:10px;
+    text-align: left;
+    color: rgb(32, 32, 32);
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+#point-filter-btn {
+    width:100%;
+    margin:0;
+    background-color:#F6F6F4;
+    color: #252323;
+    opacity: 70%;
+}
+#point-filter-btn img {
+    width: 40%;
+}
+#point-filter-btn:hover{
+    opacity: 100%;
+}
+.point-filter-item-container {
+    display: flex;
+    flex-direction: column;
+    color:rgba(0, 0, 0, 0.699);
+    user-select: none;
+    margin:auto;
+    flex-grow: 0;
+    text-transform: capitalize;
+    
+}
+.point-filter-item-container h3 {
+    color: rgb(58, 58, 58);
+    transition-duration: 0.3s;
+    background-color:#f7f7f7;
+    padding:10px;
+    margin:10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 20px;
+}
+.point-filter-item-container:hover h3 {
+    color:#292929;
+    background-color:#ffffff;
+}
+.point-filter-items {
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    padding:5px;
+    max-height: 0px;
+    width:95%;
+    /* display: none; */
+    transition: 0.4s;
+    visibility: hidden;
+    overflow-y: scroll;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+input[type="checkbox"]  {
+    display: none;
+ }
+ .point-filter-items label {
+     color:rgb(150, 150, 150);
+     user-select: none;
+     width:90%;
+     margin:auto;
+     transition: 0.2s all;
+     padding-top:10px;
+     padding-bottom: 10px;
+     padding-left:5px;
+     border-radius: 10px;
+     margin-bottom: 5px;
+ }
+ .point-filter-items label:hover {
+     color:#313131;
+     font-weight: 500;
+     background-color: #6161611e;
+     
+ }
+ input[type="checkbox"]:checked + label{
+     font-weight: 600;
+
+ }
+ 

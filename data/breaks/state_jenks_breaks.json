@@ -1,0 +1,29 @@
+{
+
+    "PCT_WHITE": {
+        "JENK_BREAKS": [0.247, 0.385, 0.626, 0.73, 0.843, 0.953],
+        "QUAN_BREAKS": [0.247, 0.67, 0.738, 0.817, 0.862],
+        "MIN": 0.247,
+        "MAX": 0.953,
+        "MEAN": 0.7598846154,
+        "NAME": "Percent White"
+    },
+
+
+    "PCT_JEW_TO": {
+        "JENK_BREAKS": [0, 0.009, 0.018, 0.032, 0.051, 0.084],
+        "QUAN_BREAKS": [0.0, 0.005, 0.008, 0.015, 0.027],
+        "MIN": 0.002,
+        "MAX": 0.084,
+        "MEAN": 0.0179615385,
+        "NAME": "Percent Jewish Total"
+    },
+    "NORM_NUM": {
+        "JENK_BREAKS": [0, 0.297, 0.665, 1.147, 1.833, 2.659],
+        "QUAN_BREAKS": [0.0, 0.14, 0.231, 0.377, 0.653],
+        "MIN": 0.0,
+        "MAX": 2.659,
+        "MEAN": 0.4498846154,
+        "NAME": "Reported Incidents per 100,000"
+    }
+}
