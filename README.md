@@ -1,2 +1,16 @@
 # Swastika Counter Map
-## Developed by Jason Miller (former Geography student at the University of Colorado Boulder) alongside Dr. Morteza Karimzadeh, Dr. Laurie Gries, Dr. Kelly L. Wheeler and their contributors, in efforts to visualize swastika incidents across the United States throughout 2016 - 2022.
+This interactive map was developed by Jason Miller, a former geography student at the University of Colorado Boulder, and his professor Dr. Morteza Karimzadeh, in efforts to help visualize data collected by Dr. Laurie Gries and Dr. Kelly L. Wheeler and their contributors.
+
+
+## Libraries used:
+JQuery
+D3
+Leaflet
+SmoothWheelZoom (Leaflet plugin)
+
+### Data processing libraries (Python):
+pandas-geojson
+validators 
+urlextract
+datetime
+
