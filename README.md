@@ -3,14 +3,14 @@ This interactive map was developed by Jason Miller, a former geography student a
 
 
 ## Libraries used:
-JQuery
-D3
-Leaflet
-SmoothWheelZoom (Leaflet plugin)
+-JQuery
+-D3
+-Leaflet
+-SmoothWheelZoom (Leaflet plugin)
 
 ### Data processing libraries (Python):
-pandas-geojson
-validators 
-urlextract
-datetime
+-pandas-geojson
+-validators 
+-urlextract
+-datetime
 
